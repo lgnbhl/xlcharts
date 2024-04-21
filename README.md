@@ -8,6 +8,8 @@
 <!-- badges: end -->
 
 - **Author**: Félix Luginbühl (<https://felixluginbuhl.com>)
+- **Source code**: <https://github.com/lgnbhl/xlcharts>
+- **Issues**: <https://github.com/lgnbhl/xlcharts/issues>
 
 ## Introduction
 
