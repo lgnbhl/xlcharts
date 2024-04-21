@@ -4,3 +4,4 @@
 ^LICENSE\.md$
 ^docs$
 ^vignettes/articles$
+^\.github$

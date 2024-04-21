@@ -5,6 +5,7 @@
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/xlcharts)](https://CRAN.R-project.org/package=xlcharts)
 [![Grand total](https://cranlogs.r-pkg.org/badges/grand-total/xlcharts)](https://cran.r-project.org/package=xlcharts)
+[![R-CMD-check](https://github.com/lgnbhl/xlcharts/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lgnbhl/xlcharts/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 - **Author**: Félix Luginbühl (<https://felixluginbuhl.com>)
