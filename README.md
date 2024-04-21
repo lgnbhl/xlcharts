@@ -3,10 +3,8 @@
 **xlcharts, an R interface to OpenPyXL to create native Excel charts and work with Microsoft Excel files.**
 
 <!-- badges: start -->
-[![CRAN
-status](https://www.r-pkg.org/badges/version/xlcharts)](https://CRAN.R-project.org/package=xlcharts)
-[![Grand
-total](https://cranlogs.r-pkg.org/badges/grand-total/xlcharts)](https://cran.r-project.org/package=xlcharts)
+[![CRAN status](https://www.r-pkg.org/badges/version/xlcharts)](https://CRAN.R-project.org/package=xlcharts)
+[![Grand total](https://cranlogs.r-pkg.org/badges/grand-total/xlcharts)](https://cran.r-project.org/package=xlcharts)
 <!-- badges: end -->
 
 - **Author**: Félix Luginbühl (<https://felixluginbuhl.com>)
