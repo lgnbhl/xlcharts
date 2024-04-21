@@ -1,0 +1,33 @@
+Package: xlcharts
+Title: Create Native 'Excel' Charts and Work with Microsoft 'Excel' Files
+Version: 0.0.1
+Authors@R: 
+  c(person("Felix", "Luginbuhl", ,"felix.luginbuhl@protonmail.ch", role = c("aut", "cre", "cph"),
+      comment = c(ORCID = "0009-0008-6625-2899")),
+    person("Eric", "Gazoni", role = c("ctb", "cph"),
+      comment = "Author of openpyxl (see AUTHORS and COPYRIGHT files for details)"),
+    person("Charlie", "Clark", role = c("ctb", "cph"),
+      comment = "Author of openpyxl (see AUTHORS and COPYRIGHT files for details)"),
+    person("openpyxl authors", role = c("ctb", "cph"),
+      comment = "Authors of openpyxl (see AUTHORS and COPYRIGHT files for details)")
+    )
+Maintainer: Felix Luginbuhl <felix.luginbuhl@protonmail.ch>
+Description: An R interface to the 'OpenPyXL' 'Python' library to create 
+  native 'Excel' charts and work with Microsoft 'Excel' files.
+URL: https://felixluginbuhl.com/xlcharts/
+License: MIT + file LICENSE
+SystemRequirements: Conda
+Config/reticulate:
+    list(
+      packages = list(
+        list(package = "openpyxl")
+      )
+    )
+Imports: 
+    reticulate,
+    writexl
+Suggests: 
+    testthat (>= 3.0.0)
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
