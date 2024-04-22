@@ -74,6 +74,17 @@ with the functions of the R package.
 #reticulate::use_virtualenv("~/pythonenvs/userenv")
 ```
 
+If you failed to install "openpyxl" with "xlcharts" functions, you can try using the "reticulate" R package:
+
+``` r
+reticulate::install_python()
+```
+
+Once Python is installed in your machine, you can install "openpyxl" from the terminal:
+
+```
+python3 -m pip install openpyxl
+```
 
 ## Create a workbook
 
