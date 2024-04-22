@@ -191,7 +191,7 @@ ws |> add_chart(chart, anchor =  "E1")
 And finally save the workbook as an Excel file.
 
 ``` r
-wb |> save_workbook("TreeData.xlsx")
+wb |> save_workbook("treeData.xlsx")
 ```
 
 <img src="man/figures/treedata-bar.png" alt="Excel file screenshot of 
