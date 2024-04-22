@@ -16,13 +16,16 @@ Description: An R interface to the 'OpenPyXL' 'Python' library to create
   native 'Excel' charts and work with Microsoft 'Excel' files.
 URL: https://felixluginbuhl.com/xlcharts/
 License: MIT + file LICENSE
-SystemRequirements: Conda
+SystemRequirements: Python (>= 2.7.0), Conda
+BugReports: https://github.com/lgnbhl/xlcharts/issues
 Config/reticulate:
     list(
       packages = list(
         list(package = "openpyxl")
       )
     )
+Depends:
+    R (>= 3.5)
 Imports: 
     reticulate,
     writexl
