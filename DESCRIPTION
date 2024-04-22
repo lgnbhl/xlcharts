@@ -1,6 +1,6 @@
 Package: xlcharts
 Title: Create Native 'Excel' Charts and Work with Microsoft 'Excel' Files
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
   c(person("Felix", "Luginbuhl", ,"felix.luginbuhl@protonmail.ch", role = c("aut", "cre", "cph"),
       comment = c(ORCID = "0009-0008-6625-2899")),
