@@ -80,9 +80,13 @@ If you failed to install "openpyxl" with "xlcharts" functions, you can try using
 reticulate::install_python()
 ```
 
-Once Python is installed in your machine, you can install "openpyxl" from the terminal:
+Once Python is installed in your machine, you can install "openpyxl" from R or from the terminal:
 
+``` r
+reticulate::py_install("openpyxl")
 ```
+
+``` console
 python3 -m pip install openpyxl
 ```
 
