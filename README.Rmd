@@ -1,43 +1,36 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # xlcharts <img src="man/figures/logo.png" align="right" width="138" />
 
-**xlcharts, an R interface to OpenPyXL to create native Excel charts and
-work with Microsoft Excel files.**
+**xlcharts, an R interface to OpenPyXL to create native Excel charts and work with Microsoft Excel files.**
 
 <!-- badges: start -->
-
-[![CRAN
-status](https://www.r-pkg.org/badges/version/xlcharts)](https://CRAN.R-project.org/package=xlcharts)
-[![Grand
-total](https://cranlogs.r-pkg.org/badges/grand-total/xlcharts)](https://cran.r-project.org/package=xlcharts)
+[![CRAN status](https://www.r-pkg.org/badges/version/xlcharts)](https://CRAN.R-project.org/package=xlcharts)
+[![Grand total](https://cranlogs.r-pkg.org/badges/grand-total/xlcharts)](https://cran.r-project.org/package=xlcharts)
 [![R-CMD-check](https://github.com/lgnbhl/xlcharts/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lgnbhl/xlcharts/actions/workflows/R-CMD-check.yaml)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-E4405F?style=social&logo=linkedin)](https://www.linkedin.com/in/FelixLuginbuhl)
 <!-- badges: end -->
 
 ## Introduction
 
-**xlcharts** was born from the lack of existing R packages to create
-native Excel charts and make advanced customization on Microsoft Excel
-files.
+**xlcharts** was born from the lack of existing R packages to create native Excel
+charts and make advanced customization on Microsoft Excel files.
 
 It is an R wrapper for the
-<a href="https://openpyxl.readthedocs.io" target="_blank">OpenPyXL</a>
-Python library using the
+<a href="https://openpyxl.readthedocs.io" target="_blank">OpenPyXL</a> Python library using the
 <a href="https://rstudio.github.io/reticulate/" target="_blank">reticulate</a>
-R package under the hood. The [xlcharts
-documentation](https://felixluginbuhl.com/xlcharts/) is a partial
-replica of the
-<a href="https://openpyxl.readthedocs.io" target="_blank">OpenPyXL
-documentation</a>, where Python code is replaced by R code (when
+R package under the hood. The [xlcharts documentation](https://felixluginbuhl.com/xlcharts/) is a
+partial replica of the
+<a href="https://openpyxl.readthedocs.io" target="_blank">OpenPyXL documentation</a>, where Python code is replaced by R code (when
 possible).
 
-All kudos goes to Eric Gazoni, Charlie Clark and other authors for
-developing the OpenPyXL Python library.
+All kudos goes to Eric Gazoni, Charlie Clark and other authors for developing the OpenPyXL Python library.
 
-FULL DOCUMENTATION:
-<a href="https://felixluginbuhl.com/xlcharts">www.felixluginbuhl.com/xlcharts</a>
+FULL DOCUMENTATION: <a href="https://felixluginbuhl.com/xlcharts">www.felixluginbuhl.com/xlcharts</a>
 
 ## Install
 
@@ -58,8 +51,7 @@ reticulate::py_require("openpyxl")
 
 ## Create a workbook
 
-To prevent potential formatting issue, we will always load data from an
-existing Excel file.
+To prevent potential formatting issue, we will always load data from an existing Excel file.
 
 If you have a dataframe in R, you can simply write it as an Excel file
 using the `write_xlsx()` function imported from the
@@ -191,9 +183,7 @@ example:
 ?Workbook()
 ```
 
-The **xlcharts** R package also provides additional R functions (not
-calling an OpenPyXL Python class) as helpers, to make the R code easier
-to read and write:
+The **xlcharts** R package also provides additional R functions (not calling an OpenPyXL Python class) as helpers, to make the R code easier to read and write:
 
 - `active()`
 - `x_axis()`
@@ -201,7 +191,7 @@ to read and write:
 - `set_catagories()`
 - `add_data()`
 - `add_table()`
-- `add_chart()`
+- `add_chart()` 
 
 It also provides functions imported from other Python modules:
 
@@ -221,10 +211,9 @@ Numbers used in arguments/parameters should be integers (use `L` after
 the number in R), for example `1L`, to be correctly evaluated by the
 OpenPyXL Python library.
 
-Unfortunately some OpenPyXL Python classes from different module have
-similar names. An arbitrary choice has been made to import some from a
-specific module instead of another. Maybe a condition will be added in a
-future version of the package (any contribution is very welcomed!). In
+Unfortunately some OpenPyXL Python classes from different module have similar names. An arbitrary choice has been made to import some from a 
+specific module instead of another. Maybe a condition will be added in 
+a future version of the package (any contribution is very welcomed!). In 
 the meantime, you can access any class as such:
 
 ``` r
@@ -237,5 +226,5 @@ openpyxl$[OpenPyXL Python class]
 Any contribution is very welcomed!
 
 If you find this R package helpful, feel free to mention it on social
-media. You can follow me on LinkedIn for R package updates: [Felix
-Luginbuhl](https://www.linkedin.com/in/FelixLuginbuhl).
+media. You can follow me on LinkedIn for R package updates:
+[Felix Luginbuhl](https://www.linkedin.com/in/FelixLuginbuhl).
