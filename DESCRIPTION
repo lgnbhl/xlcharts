@@ -30,7 +30,10 @@ Imports:
     reticulate,
     writexl
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Encoding: UTF-8
 RoxygenNote: 7.2.3
 Config/testthat/edition: 3
+VignetteBuilder: knitr
